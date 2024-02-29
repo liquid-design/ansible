@@ -10,6 +10,9 @@ Create user config for git
 git config --global user.name "John Doe"
 git config --global user.email "name@domain.tld"
 
+In case you have multiple keys, use this one setup 
+GIT_SSH_COMMAND="ssh -i .ssh/ansible" git clone git@github.com:liquid-design/ansible.git
+
 Check the status of your git repository
 git status
 
