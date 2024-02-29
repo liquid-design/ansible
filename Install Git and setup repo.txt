@@ -1,0 +1,23 @@
+Check if git is installed
+
+which git
+
+Install git
+sudo apt update
+sudo apt install git
+
+Create user config for git
+git config --global user.name "John Doe"
+git config --global user.email "name@domain.tld"
+
+Check the status of your git repository
+git status
+
+Stage the README.md file (after making changes) to be included in the next git commit
+git add README.md
+
+Set up the README.md file to be included in a commit
+git commit -m "Updated readme file, initial commit"
+
+Send the commit to Github
+git push origin master
